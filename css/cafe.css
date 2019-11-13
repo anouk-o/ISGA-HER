@@ -1,0 +1,89 @@
+@font-face{
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+    font-family: sourcesanspro;
+}
+/*--- MENU SCHERM --*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sourcesanspro;
+}
+#wrapperMenu {
+    height: 736px;
+    width: 414px;
+    background-color:#fff;
+}
+header nav img {
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.menu {
+    width: 7%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 95px;
+}
+.talen {
+    width: 7%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+header nav {
+    background-color: #000;
+}
+.wrapperSection h1 {
+    float: left;
+    margin-left: 10px;
+}
+.terugKnop {
+    width: 5%;
+    margin-top: 25px;
+    float: left;
+    margin-left: 25px;
+}
+.locatie {
+    width: 5%;
+    float: left;
+    padding: 3%;
+}
+.sterren{
+    width: 20%; 
+    float: right;
+    padding: 7%;
+    margin-right: 25px;
+}
+#dropdown {
+    width: 300px;
+    margin-left: 57px;
+    border: solid black;
+}
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.left {
+    width: 300px;
+    margin-left: 57px;
+    margin-top: 10px;
+    height: 180px;
+    overflow: scroll;
+}
+footer {
+    position: absolute;
+    margin-top: 2px;
+    background-color: #000;
+    width: 414px;
+    height: 45px;
+}
+footer img{
+    width: 7%;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
